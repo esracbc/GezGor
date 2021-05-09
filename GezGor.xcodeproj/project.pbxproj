@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39E61F05FD87DFD112F4DBBB /* Pods_GezGorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2AFC9BA368FDA5A4EF3B10 /* Pods_GezGorTests.framework */; };
+		9A6E42232630311D00A6C6A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A6E42222630311D00A6C6A1 /* GoogleService-Info.plist */; };
 		9A927D4026278F45008F917A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D3F26278F45008F917A /* AppDelegate.swift */; };
 		9A927D4226278F45008F917A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D4126278F45008F917A /* SceneDelegate.swift */; };
 		9A927D4426278F45008F917A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D4326278F45008F917A /* ViewController.swift */; };
@@ -15,6 +17,14 @@
 		9A927D4C26278F45008F917A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A927D4A26278F45008F917A /* LaunchScreen.storyboard */; };
 		9A927D5726278F45008F917A /* GezGorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D5626278F45008F917A /* GezGorTests.swift */; };
 		9A927D6226278F45008F917A /* GezGorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D6126278F45008F917A /* GezGorUITests.swift */; };
+		9A927D732627904A008F917A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D722627904A008F917A /* LoginViewController.swift */; };
+		9A927D782627905A008F917A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D772627905A008F917A /* SignUpViewController.swift */; };
+		9A927D7D26279065008F917A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D7C26279065008F917A /* HomeViewController.swift */; };
+		9A927D9E2627A220008F917A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A927D9D2627A220008F917A /* Utilities.swift */; };
+		9AB078DC262CDEEF009FC1DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB078DB262CDEEF009FC1DD /* Constants.swift */; };
+		9AD0434326346ADD00191548 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0434226346ADD00191548 /* LocationViewController.swift */; };
+		C3DB50F65705827505B66238 /* Pods_GezGor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045589B5A7D8DB93977B8B31 /* Pods_GezGor.framework */; };
+		F0D4C7E37FA0E02B342140EB /* Pods_GezGor_GezGorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9254D0BCA8BB7A5448093C53 /* Pods_GezGor_GezGorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045589B5A7D8DB93977B8B31 /* Pods_GezGor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GezGor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DB806B36EC7D13C8F8AF21 /* Pods-GezGor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GezGor.debug.xcconfig"; path = "Target Support Files/Pods-GezGor/Pods-GezGor.debug.xcconfig"; sourceTree = "<group>"; };
+		56DE34430A25DB4A67690645 /* Pods-GezGorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GezGorTests.release.xcconfig"; path = "Target Support Files/Pods-GezGorTests/Pods-GezGorTests.release.xcconfig"; sourceTree = "<group>"; };
+		60D6D9EFF33BE5BA216D3FDB /* Pods-GezGor-GezGorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GezGor-GezGorUITests.debug.xcconfig"; path = "Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		883976F972553890D68369EE /* Pods-GezGorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GezGorTests.debug.xcconfig"; path = "Target Support Files/Pods-GezGorTests/Pods-GezGorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9254D0BCA8BB7A5448093C53 /* Pods_GezGor_GezGorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GezGor_GezGorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6E42222630311D00A6C6A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A927D3C26278F45008F917A /* GezGor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GezGor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A927D3F26278F45008F917A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A927D4126278F45008F917A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,15 @@
 		9A927D5D26278F45008F917A /* GezGorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GezGorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A927D6126278F45008F917A /* GezGorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GezGorUITests.swift; sourceTree = "<group>"; };
 		9A927D6326278F45008F917A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A927D722627904A008F917A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9A927D772627905A008F917A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9A927D7C26279065008F917A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9A927D9D2627A220008F917A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9AB078DB262CDEEF009FC1DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9AD0434226346ADD00191548 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B8793210B7CF7A28FEBCA925 /* Pods-GezGor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GezGor.release.xcconfig"; path = "Target Support Files/Pods-GezGor/Pods-GezGor.release.xcconfig"; sourceTree = "<group>"; };
+		C82B63D707B6059905F8B000 /* Pods-GezGor-GezGorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GezGor-GezGorUITests.release.xcconfig"; path = "Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF2AFC9BA368FDA5A4EF3B10 /* Pods_GezGorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GezGorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DB50F65705827505B66238 /* Pods_GezGor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E61F05FD87DFD112F4DBBB /* Pods_GezGorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D4C7E37FA0E02B342140EB /* Pods_GezGor_GezGorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		327B3D80B4E22F226940DAB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045589B5A7D8DB93977B8B31 /* Pods_GezGor.framework */,
+				9254D0BCA8BB7A5448093C53 /* Pods_GezGor_GezGorUITests.framework */,
+				DF2AFC9BA368FDA5A4EF3B10 /* Pods_GezGorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A927D3326278F45008F917A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				9A927D5526278F45008F917A /* GezGorTests */,
 				9A927D6026278F45008F917A /* GezGorUITests */,
 				9A927D3D26278F45008F917A /* Products */,
+				DB0B0701E5562DC7E8F88B5F /* Pods */,
+				327B3D80B4E22F226940DAB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +140,13 @@
 		9A927D3E26278F45008F917A /* GezGor */ = {
 			isa = PBXGroup;
 			children = (
+				9A927D8126279086008F917A /* Controllers */,
 				9A927D3F26278F45008F917A /* AppDelegate.swift */,
 				9A927D4126278F45008F917A /* SceneDelegate.swift */,
-				9A927D4326278F45008F917A /* ViewController.swift */,
 				9A927D4526278F45008F917A /* Main.storyboard */,
+				9A927DA22627AA76008F917A /* Helpers */,
 				9A927D4826278F45008F917A /* Assets.xcassets */,
+				9A6E42222630311D00A6C6A1 /* GoogleService-Info.plist */,
 				9A927D4A26278F45008F917A /* LaunchScreen.storyboard */,
 				9A927D4D26278F45008F917A /* Info.plist */,
 			);
@@ -128,6 +171,40 @@
 			path = GezGorUITests;
 			sourceTree = "<group>";
 		};
+		9A927D8126279086008F917A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A927D4326278F45008F917A /* ViewController.swift */,
+				9A927D722627904A008F917A /* LoginViewController.swift */,
+				9A927D772627905A008F917A /* SignUpViewController.swift */,
+				9A927D7C26279065008F917A /* HomeViewController.swift */,
+				9AD0434226346ADD00191548 /* LocationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A927DA22627AA76008F917A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9A927D9D2627A220008F917A /* Utilities.swift */,
+				9AB078DB262CDEEF009FC1DD /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DB0B0701E5562DC7E8F88B5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13DB806B36EC7D13C8F8AF21 /* Pods-GezGor.debug.xcconfig */,
+				B8793210B7CF7A28FEBCA925 /* Pods-GezGor.release.xcconfig */,
+				60D6D9EFF33BE5BA216D3FDB /* Pods-GezGor-GezGorUITests.debug.xcconfig */,
+				C82B63D707B6059905F8B000 /* Pods-GezGor-GezGorUITests.release.xcconfig */,
+				883976F972553890D68369EE /* Pods-GezGorTests.debug.xcconfig */,
+				56DE34430A25DB4A67690645 /* Pods-GezGorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A927D6626278F45008F917A /* Build configuration list for PBXNativeTarget "GezGor" */;
 			buildPhases = (
+				141BAAEF909181A334F9BD5E /* [CP] Check Pods Manifest.lock */,
 				9A927D3826278F45008F917A /* Sources */,
 				9A927D3926278F45008F917A /* Frameworks */,
 				9A927D3A26278F45008F917A /* Resources */,
+				93B2656B0C6AAF95AE7FFC9B /* [CP] Embed Pods Frameworks */,
+				EC194C4A0FFCB0A564AAB875 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A927D6926278F45008F917A /* Build configuration list for PBXNativeTarget "GezGorTests" */;
 			buildPhases = (
+				F07F89DD8FF8292F817F56C4 /* [CP] Check Pods Manifest.lock */,
 				9A927D4E26278F45008F917A /* Sources */,
 				9A927D4F26278F45008F917A /* Frameworks */,
 				9A927D5026278F45008F917A /* Resources */,
@@ -170,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A927D6C26278F45008F917A /* Build configuration list for PBXNativeTarget "GezGorUITests" */;
 			buildPhases = (
+				A5AD60400CD739DF8F64F182 /* [CP] Check Pods Manifest.lock */,
 				9A927D5926278F45008F917A /* Sources */,
 				9A927D5A26278F45008F917A /* Frameworks */,
 				9A927D5B26278F45008F917A /* Resources */,
+				8281B45473AD8F617125CE24 /* [CP] Embed Pods Frameworks */,
+				BA97EF28078560224ACCFE97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A927D4C26278F45008F917A /* LaunchScreen.storyboard in Resources */,
+				9A6E42232630311D00A6C6A1 /* GoogleService-Info.plist in Resources */,
 				9A927D4926278F45008F917A /* Assets.xcassets in Resources */,
 				9A927D4726278F45008F917A /* Main.storyboard in Resources */,
 			);
@@ -253,14 +338,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		141BAAEF909181A334F9BD5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GezGor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8281B45473AD8F617125CE24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B2656B0C6AAF95AE7FFC9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor/Pods-GezGor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor/Pods-GezGor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GezGor/Pods-GezGor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AD60400CD739DF8F64F182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GezGor-GezGorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA97EF28078560224ACCFE97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GezGor-GezGorUITests/Pods-GezGor-GezGorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC194C4A0FFCB0A564AAB875 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor/Pods-GezGor-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GezGor/Pods-GezGor-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GezGor/Pods-GezGor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07F89DD8FF8292F817F56C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GezGorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A927D3826278F45008F917A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A927D732627904A008F917A /* LoginViewController.swift in Sources */,
 				9A927D4426278F45008F917A /* ViewController.swift in Sources */,
+				9A927D9E2627A220008F917A /* Utilities.swift in Sources */,
 				9A927D4026278F45008F917A /* AppDelegate.swift in Sources */,
 				9A927D4226278F45008F917A /* SceneDelegate.swift in Sources */,
+				9A927D782627905A008F917A /* SignUpViewController.swift in Sources */,
+				9AD0434326346ADD00191548 /* LocationViewController.swift in Sources */,
+				9A927D7D26279065008F917A /* HomeViewController.swift in Sources */,
+				9AB078DC262CDEEF009FC1DD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +661,7 @@
 		};
 		9A927D6726278F45008F917A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DB806B36EC7D13C8F8AF21 /* Pods-GezGor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +680,7 @@
 		};
 		9A927D6826278F45008F917A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8793210B7CF7A28FEBCA925 /* Pods-GezGor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +699,7 @@
 		};
 		9A927D6A26278F45008F917A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883976F972553890D68369EE /* Pods-GezGorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +721,7 @@
 		};
 		9A927D6B26278F45008F917A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DE34430A25DB4A67690645 /* Pods-GezGorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +743,7 @@
 		};
 		9A927D6D26278F45008F917A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D6D9EFF33BE5BA216D3FDB /* Pods-GezGor-GezGorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +763,7 @@
 		};
 		9A927D6E26278F45008F917A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82B63D707B6059905F8B000 /* Pods-GezGor-GezGorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
